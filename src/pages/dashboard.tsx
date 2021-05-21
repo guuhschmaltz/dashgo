@@ -83,7 +83,7 @@ export default function Dashboard() {
           alignItems="flex-start"
         >
           <Box
-            padding="8"
+            padding={["6","8"]}
             paddingBottom="4"
             backgroundColor="gray.800"
             borderRadius={8}
@@ -92,7 +92,7 @@ export default function Dashboard() {
             <ApexChart options={options} series={series} type="area" height={160} />
           </Box>
           <Box
-            padding="8"
+            padding={["6","8"]}
             paddingBottom="4"
             backgroundColor="gray.800"
             borderRadius={8}

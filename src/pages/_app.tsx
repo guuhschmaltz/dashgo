@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
       <SidebarDrawerProvider>
-      <Component {...pageProps} />
+        <Component {...pageProps} />
       </SidebarDrawerProvider>
     </ChakraProvider>
   )
